@@ -36,6 +36,7 @@ If useful, further tasks would be:
 - [ ] Add in scaling semantics with partitions that can only be set at Topic creation
 - [ ] Make library shareable as a C Shared library
 - [ ] Create Python package with bindings to `kaffic`
+- [ ] Enable scaling of a Topic by adding/removing partitions while running after creation of the Topic
 - [ ] Add GCS pluggable storage
 - [ ] Create Java package with bindings to `kaffic`
 - [ ] Create Ruby gem with bindings to `kaffic`
