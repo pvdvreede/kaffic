@@ -1,12 +1,12 @@
-package core
+package topic
 
 import (
 	"errors"
 	"io"
 	"time"
 
-	"github.com/pvdvreede/ms-core/pkg/core"
-	"github.com/pvdvreede/ms-core/pkg/store"
+	"github.com/pvdvreede/kaffic/pkg/core"
+	"github.com/pvdvreede/kaffic/pkg/store"
 )
 
 type TopicWriter struct {

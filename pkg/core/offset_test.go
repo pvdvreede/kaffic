@@ -3,7 +3,7 @@ package core_test
 import (
 	"testing"
 
-	"github.com/pvdvreede/ms-core/pkg/core"
+	"github.com/pvdvreede/kaffic/pkg/core"
 	"github.com/stretchr/testify/assert"
 )
 

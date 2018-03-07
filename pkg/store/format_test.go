@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/pvdvreede/ms-core/pkg/core"
-	"github.com/pvdvreede/ms-core/pkg/store"
+	"github.com/pvdvreede/kaffic/pkg/core"
+	"github.com/pvdvreede/kaffic/pkg/store"
 )
 
 func TestToFileReader(t *testing.T) {

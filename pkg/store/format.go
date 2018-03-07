@@ -6,7 +6,7 @@ import (
 
 	"github.com/ugorji/go/codec"
 
-	"github.com/pvdvreede/ms-core/pkg/core"
+	"github.com/pvdvreede/kaffic/pkg/core"
 )
 
 const (

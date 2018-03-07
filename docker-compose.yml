@@ -5,9 +5,9 @@ x-base: &base
   build:
     context: .
     target: dev
-  working_dir: /go/src/github.com/pvdvreede/ms-core
+  working_dir: /go/src/github.com/pvdvreede/kaffic
   volumes:
-    - ".:/go/src/github.com/pvdvreede/ms-core"
+    - ".:/go/src/github.com/pvdvreede/kaffic"
 
 services:
   sh:
