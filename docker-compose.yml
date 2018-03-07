@@ -1,0 +1,23 @@
+---
+version: "2.3"
+
+x-base: &base
+  build:
+    context: .
+    target: dev
+  working_dir: /go/src/github.com/pvdvreede/ms-core
+  volumes:
+    - ".:/go/src/github.com/pvdvreede/ms-core"
+
+services:
+  sh:
+    <<: *base
+    command: sh
+
+  test:
+    <<: *base
+    command: go test ./...
+
+  generate:
+    <<: *base
+    command: go generate ./...
