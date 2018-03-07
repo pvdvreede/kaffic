@@ -24,19 +24,19 @@ The core value proposition for `kaffic` is to use a dumb, but highly available a
 
 ## Roadmap
 
-[ ] Start with simple Go only package
-[ ] Provide Write api for Topics (exclude scalable semantics like Paritions)
-[ ] Start with a basic File System storage plugin to make it easy to test and confirm correctness
-[ ] Add Read API for Topics (exclude scalable semantics like Paritions)
-[ ] Add S3 pluggable storage to experiment with latency, throughput
+- [ ] Start with simple Go only package
+- [ ] Provide Write api for Topics (exclude scalable semantics like Paritions)
+- [ ] Start with a basic File System storage plugin to make it easy to test and confirm correctness
+- [ ] Add Read API for Topics (exclude scalable semantics like Paritions)
+- [ ] Add S3 pluggable storage to experiment with latency, throughput
 
 If useful, further tasks would be:
 
-[ ] Build in Go web server with HTTP API
-[ ] Add in scaling semantics with partitions that can only be set at Topic creation
-[ ] Make library shareable as a C Shared library
-[ ] Create Python package with bindings to `kaffic`
-[ ] Add GCS pluggable storage
-[ ] Create Java package with bindings to `kaffic`
-[ ] Create Ruby gem with bindings to `kaffic`
-[ ] Create Node package with bindings to `kaffic`
+- [ ] Build in Go web server with HTTP API
+- [ ] Add in scaling semantics with partitions that can only be set at Topic creation
+- [ ] Make library shareable as a C Shared library
+- [ ] Create Python package with bindings to `kaffic`
+- [ ] Add GCS pluggable storage
+- [ ] Create Java package with bindings to `kaffic`
+- [ ] Create Ruby gem with bindings to `kaffic`
+- [ ] Create Node package with bindings to `kaffic`
